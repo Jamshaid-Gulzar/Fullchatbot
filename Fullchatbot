@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>✅ CDN Test - hamzailyas434</title>
+    <title>✅ CDN Test - Jamshaid Gulzar</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -109,18 +109,18 @@
             
             <div class="success-box">
                 <h3 style="margin-top: 0;">✅ Repository Found!</h3>
-                <p><strong>GitHub Repo:</strong> hamzailyas434/hamza-chat-widget-cdn</p>
-                <p><strong>File:</strong> chat1-widget.js ✅</p>
+                <p><strong>GitHub Repo:</strong> Jamshaid-Gulzar/Fullchatbot</p>
+                <p><strong>File:</strong> Fullchatbot ✅</p>
             </div>
             
             <div style="background: #e3f2fd; padding: 20px; border-radius: 8px; margin: 20px 0;">
                 <h3 style="margin-top: 0; color: #1976D2;">📡 Your CDN URLs:</h3>
                 
                 <p><strong>jsDelivr (Recommended):</strong></p>
-                <div class="cdn-url">https://cdn.jsdelivr.net/gh/hamzailyas434/hamza-chat-widget-cdn@main/chat1-widget.js</div>
+                <div class="cdn-url">https://cdn.jsdelivr.net/gh/Jamshaid-Gulzar/Fullchatbot@main/Fullchatbot</div>
                 
                 <p><strong>GitHub Raw:</strong></p>
-                <div class="cdn-url">https://raw.githubusercontent.com/hamzailyas434/hamza-chat-widget-cdn/main/chat1-widget.js</div>
+                <div class="cdn-url">https://raw.githubusercontent.com/Jamshaid-Gulzar/Fullchatbot/main/Fullchatbot</div>
             </div>
             
             <div class="instructions">
@@ -200,7 +200,7 @@
             const status = document.getElementById('test-results');
             status.innerHTML = '<div class="status warning">🔄 Purging jsDelivr cache...</div>';
             
-            fetch('https://purge.jsdelivr.net/gh/hamzailyas434/hamza-chat-widget-cdn@main/chat1-widget.js')
+            fetch('https://purge.jsdelivr.net/gh/Jamshaid-Gulzar/Fullchatbot@main/Fullchatbot')
                 .then(r => r.json())
                 .then(data => {
                     status.innerHTML += '<div class="status success">✅ Cache purged successfully!</div>';
@@ -220,7 +220,7 @@
         });
         
         // Log CDN loading
-        console.log('🔍 Testing CDN: https://cdn.jsdelivr.net/gh/hamzailyas434/hamza-chat-widget-cdn@main/chat1-widget.js');
+        console.log('🔍 Testing CDN: https://cdn.jsdelivr.net/gh/Jamshaid-Gulzar/Fullchatbot@main/Fullchatbot');
     </script>
 
     <!-- Widget Configuration -->
@@ -250,8 +250,8 @@
         };
     </script>
 
-    <!-- Load Widget from YOUR CDN! -->
-    <script src="https://cdn.jsdelivr.net/gh/hamzailyas434/hamza-chat-widget-cdn@main/chat1-widget.js" 
+    <!-- Load Widget from Jamshaid's CDN! -->
+    <script src="https://cdn.jsdelivr.net/gh/Jamshaid-Gulzar/Fullchatbot@main/Fullchatbot" 
             onerror="console.error('❌ Failed to load from CDN')"
             onload="console.log('✅ Widget script loaded from CDN')"></script>
 </body>
